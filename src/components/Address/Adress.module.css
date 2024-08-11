@@ -1,0 +1,24 @@
+.addressBlock {
+  padding: 40px 0;
+}
+
+.addressBgBox {
+  background: url(../../assets/image/Group\ 20430.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.address {
+  margin-bottom: 20px;
+}
+.address p {
+  font-size: 14px;
+  color: #222;
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+}

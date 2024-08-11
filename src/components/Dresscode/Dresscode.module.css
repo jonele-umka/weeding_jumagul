@@ -1,0 +1,33 @@
+.dresscode {
+  padding: 40px 0;
+}
+.headBlock {
+  margin-bottom: 20px;
+}
+.headBlock p {
+  font-weight: 300;
+  line-height: 25px;
+  text-align: center;
+}
+.colors {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+.colorOne {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 0.5px solid #000;
+}
+.colorTwo {
+  width: 60px;
+  height: 60px;
+  background: #000;
+}
+
+.colorThree {
+  width: 60px;
+  height: 60px;
+  background: #e5e4e4;
+}

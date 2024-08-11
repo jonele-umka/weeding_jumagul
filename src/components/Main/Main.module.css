@@ -1,0 +1,124 @@
+.main {
+  background-image: url("../../assets/image/Group\ 20431.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+}
+
+/* .main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  box-sizing: border-box;
+} */
+
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding-top: 80px;
+}
+.mainText h1 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+.mainBottomText {
+  padding-bottom: 40px;
+}
+.description p {
+  text-align: center;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.date h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Great Vibes", sans-serif;
+  color: #fff;
+}
+.address h1 {
+  font-weight: normal;
+  color: #fff;
+  font-size: 22px;
+}
+.address h2 {
+  font-weight: normal;
+  font-size: 22px;
+  color: #fff;
+}
+.names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  row-gap: 10px;
+}
+
+.names h1 {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: #222;
+  font-family: "Great Vibes", sans-serif;
+  color: #fff;
+}
+
+.names span {
+  font-weight: normal;
+  font-size: 16px;
+  color: #222;
+  text-align: center;
+  color: #fff;
+}
+
+.svg_border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.svg_border svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.svg_border .line {
+  stroke-dasharray: 500;
+  stroke-width: 1px;
+  fill: transparent;
+  stroke: #222;
+  animation: svgAnimation 2.5s linear infinite;
+}
+
+@keyframes svgAnimation {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 1000;
+  }
+}

@@ -1,0 +1,38 @@
+.timing {
+  padding: 40px 0;
+}
+
+.timingBlock {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.timingBox {
+  position: relative;
+  padding-left: 20px;
+}
+.timingBox::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ccc;
+}
+.timingBox h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.timingBox h2 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.timingBox p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}

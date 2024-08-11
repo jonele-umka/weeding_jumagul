@@ -1,0 +1,27 @@
+.img {
+  margin-bottom: 120px;
+  position: relative;
+  max-width: 100%;
+}
+
+.firstImg {
+  width: 230px;
+  height: 340px;
+  background-image: url("../../assets/image/studio_status_-167.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.secondImg {
+  width: 180px;
+  height: 250px;
+  background-image: url("../../assets/image/slideImg/studio_status_-42.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: -30%;
+  right: 0%;
+}

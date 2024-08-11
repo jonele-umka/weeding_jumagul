@@ -1,0 +1,27 @@
+/* Header.module.css */
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end; /* Выравнивание содержимого по правому краю */
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  box-sizing: border-box; /* Учет внутренних отступов и границ */
+}
+.languageSelector {
+  display: flex;
+  gap: 10px;
+}
+
+.flag {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.flag.selected {
+  border-color: #000; /* Или любой другой цвет, чтобы выделить выбранный флаг */
+}

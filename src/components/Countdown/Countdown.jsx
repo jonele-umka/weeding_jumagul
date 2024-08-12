@@ -33,7 +33,7 @@ const Countdown = () => {
   }, [timeLeft]);
 
   return (
-    <div className="countdown">
+    <div data-aos="fade-up" className="countdown">
       <div className="time-box">
         <div className="time">{timeLeft.days || "0"}</div>
         <div className="label">{t("day")}</div>

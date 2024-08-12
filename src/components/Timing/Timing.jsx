@@ -7,7 +7,9 @@ export const Timing = () => {
   return (
     <div className={styles.timing}>
       <div className="container">
-        <h1 className="headText">Тайминг:</h1>
+        <h1 data-aos="fade-up" className="headText">
+          Тайминг:
+        </h1>
         <div className={styles.timingBlock}>
           <div data-aos="fade-up" className={styles.timingBox}>
             <h1>11:00</h1>

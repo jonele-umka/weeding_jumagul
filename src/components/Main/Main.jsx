@@ -11,15 +11,15 @@ const Main = () => {
       <div className="container">
         <div className={styles.mainBlock}>
           <div className={styles.mainText}>
-            <h1>-- {t("mainWeeding")} --</h1>
-            <div className={styles.names}>
+            <h1 data-aos="fade-down">-- {t("mainWeeding")} --</h1>
+            <div data-aos="zoom-in" className={styles.names}>
               <h1>Урмат</h1>
               <h1>&</h1>
               <h1>Жумагуль</h1>
             </div>
-            <h1>-- Weeding day --</h1>
+            <h1 data-aos="fade-up">-- Weeding day --</h1>
           </div>
-          <div className={styles.mainBottomText}>
+          <div data-aos="fade-up" className={styles.mainBottomText}>
             <div className={styles.description}>
               <p>{t("mainP")}</p>
             </div>

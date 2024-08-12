@@ -2,12 +2,11 @@
 .header {
   padding: 20px;
   display: flex;
-  justify-content: flex-end; /* Выравнивание содержимого по правому краю */
+  justify-content: flex-end;
   align-items: center;
   position: fixed;
   z-index: 10000;
-  width: 100%;
-  box-sizing: border-box; /* Учет внутренних отступов и границ */
+  box-sizing: border-box;
 }
 .languageSelector {
   display: flex;

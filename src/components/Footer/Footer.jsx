@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <p className="footer-text">{t('footerText')}</p>
+      <p className="footer-text">{t("footerText")}</p>
     </footer>
   );
 };

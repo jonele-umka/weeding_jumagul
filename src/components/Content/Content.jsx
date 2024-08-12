@@ -10,8 +10,10 @@ function Content() {
   return (
     <div className={styles.content}>
       <div className="container">
-        <h1 className="headText">{t("contentHeadText")}</h1>
-        <div className={styles.content_title}>
+        <h1 data-aos="fade-up" className="headText">
+          {t("contentHeadText")}
+        </h1>
+        <div data-aos="fade-up" className={styles.content_title}>
           <p>{t("contentText")}</p>
         </div>
         <ContentImages />

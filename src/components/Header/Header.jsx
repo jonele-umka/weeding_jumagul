@@ -18,25 +18,27 @@ export const Header = () => {
   };
 
   return (
-    <header className={styles.header}>
-      <div className={styles.languageSelector}>
-        <img
-          src={kg}
-          alt="Kyrgyzstan Flag"
-          className={`${styles.flag} ${
-            selectedLanguage === "kg" ? styles.selected : ""
-          }`}
-          onClick={() => handleChangeLanguage("kg")}
-        />
-        <img
-          src={ru}
-          alt="Russia Flag"
-          className={`${styles.flag} ${
-            selectedLanguage === "ru" ? styles.selected : ""
-          }`}
-          onClick={() => handleChangeLanguage("ru")}
-        />
-      </div>
-    </header>
+    <div className="container">
+      <header className={styles.header}>
+        <div className={styles.languageSelector}>
+          <img
+            src={kg}
+            alt="Kyrgyzstan Flag"
+            className={`${styles.flag} ${
+              selectedLanguage === "kg" ? styles.selected : ""
+            }`}
+            onClick={() => handleChangeLanguage("kg")}
+          />
+          <img
+            src={ru}
+            alt="Russia Flag"
+            className={`${styles.flag} ${
+              selectedLanguage === "ru" ? styles.selected : ""
+            }`}
+            onClick={() => handleChangeLanguage("ru")}
+          />
+        </div>
+      </header>
+    </div>
   );
 };

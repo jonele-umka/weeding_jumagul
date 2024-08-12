@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./18n";
 import "./App.css";
 import Content from "./components/Content/Content";
@@ -10,7 +11,12 @@ import Slider from "./components/Slider/Slider";
 import { Dresscode } from "./components/Dresscode/Dresscode";
 import Footer from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="App">
       <Header />

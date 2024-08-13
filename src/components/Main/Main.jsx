@@ -25,6 +25,7 @@ const Main = () => {
             </div>
             <div className={styles.date}>
               <h1>19.09.2024</h1>
+              <h2>17:00</h2>
             </div>
             <div className={styles.address}>
               <h1>Ресторан: "Palazzo"</h1>

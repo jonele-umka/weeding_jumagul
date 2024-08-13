@@ -51,10 +51,17 @@
   color: #fff;
 }
 
+.date{
+  margin-bottom: 20px;
+}
 .date h1 {
   font-size: 35px;
   text-align: center;
-  margin-bottom: 20px;
+  color: #fff;
+}
+.date h2 {
+  font-size: 30px;
+  text-align: center;
   color: #fff;
 }
 .address h1 {

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 body {
   margin: 0;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Futura", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -11,9 +11,12 @@ html {
   scroll-behavior: smooth;
 }
 * {
-  font-family: "Merriweather", sans-serif;
+  font-family: "Futura", sans-serif;
 }
-
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/fonts/futura-std-4-cufonfonts/FuturaStdBook.otf");
+}
 h1,
 h2,
 h3,

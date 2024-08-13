@@ -22,12 +22,12 @@ export const Timing = () => {
             <p>{t("timing2")}</p>
           </div>
           <div data-aos="fade-up" className={styles.timingBox}>
-            <h1>18:00</h1>
+            <h1>17:00</h1>
             <h2>{t("timingHead3")}</h2>
             <p>{t("timing3")}</p>
           </div>
           <div data-aos="fade-up" className={styles.timingBox}>
-            <h1>19:00</h1>
+            <h1>18:00</h1>
             <h2>{t("timingHead4")}</h2>
             <p>{t("timing4")}</p>
           </div>

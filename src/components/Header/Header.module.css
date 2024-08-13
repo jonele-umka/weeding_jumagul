@@ -33,7 +33,7 @@
 }
 
 .flag.selected {
-  border-color: #000; /* Или любой другой цвет, чтобы выделить выбранный флаг */
+  border-color: #000;
 }
 
 .playButton {

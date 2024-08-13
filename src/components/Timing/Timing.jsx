@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Timing.module.css";
 import Countdown from "../Countdown/Countdown";
 import { useTranslation } from "react-i18next";
+import Calendar from "../Calendar/Calendar";
 export const Timing = () => {
   const { t } = useTranslation();
   return (
@@ -37,6 +38,7 @@ export const Timing = () => {
             <p>{t("timing5")}</p>
           </div>
         </div>
+        <Calendar />
         <Countdown />
       </div>
     </div>

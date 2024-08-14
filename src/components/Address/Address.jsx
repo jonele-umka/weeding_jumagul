@@ -11,14 +11,6 @@ function Address() {
           Локация:
         </h1>
 
-        {/* <div className={styles.addressBgBox}>
-          <div className={styles.address}>
-            <p>
-              Наша свадьба будет в ресторане «Palazzo» Ресторан находится по
-              адрес «Сухэ-Батора, 3/2».
-            </p>
-          </div>
-        </div> */}
         <div className={styles.address}>
           <p data-aos="fade-up">{t("addressText")}</p>
         </div>

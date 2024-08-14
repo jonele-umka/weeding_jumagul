@@ -12,10 +12,10 @@ export const Dresscode = () => {
           <h1 className="headText">Дресс код:</h1>
           <p>{t("dresscodeText")}</p>
         </div>
-        <div className={styles.colors}>
-          <div data-aos="fade-right" className={styles.colorOne}></div>
-          <div data-aos="zoom-in" className={styles.colorTwo}></div>
-          <div data-aos="fade-left" className={styles.colorThree}></div>
+        <div data-aos="fade-up" className={styles.colors}>
+          <div className={styles.colorOne}></div>
+          <div className={styles.colorTwo}></div>
+          <div className={styles.colorThree}></div>
         </div>
       </div>
     </div>

@@ -28,6 +28,7 @@ const Calendar = () => {
   }
 
   return (
+    <div className="container">
     <div className="calendar">
       <div className="header">Сентябрь 2024</div>
       <div className="days-of-week">
@@ -41,14 +42,16 @@ const Calendar = () => {
         {dates.map((date, index) => (
           <div
             key={index}
-            className={`date ${date === 19 ? "highlighted" : ""}`}
+            className={`date ${date === 14 ? "highlighted" : ""}`}
           >
             {date}
-            {date === 19 && <CiHeart className="heart" />}
+            {date === 14 && <CiHeart className="heart" />}
           </div>
         ))}
       </div>
     </div>
+
+    </div>    
   );
 };
 

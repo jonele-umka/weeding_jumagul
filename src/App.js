@@ -13,6 +13,7 @@ import Footer from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Calendar from "./components/Calendar/Calendar";
 
 function App() {
   useEffect(() => {
@@ -25,14 +26,15 @@ function App() {
       <Main />
       <SliderNames />
       <Content />
-      <SliderNamesLeft />
-      <Timing />
-      <SliderNames />
-      <Dresscode />
-      <SliderNamesLeft />
       <Slider />
+      <Calendar/>
+      {/* <SliderNamesLeft /> */}
+      {/* <Timing /> */}
+      {/* <SliderNames /> */}
+      {/* <Dresscode /> */}
+      {/* <SliderNamesLeft />
       <Address />
-      <SliderNames />
+      <SliderNames /> */}
       <Footer />
     </div>
   );

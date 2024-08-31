@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React  from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -10,17 +10,17 @@ import "./Slider.css";
 
 // import required modules
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
-import img1 from "../../assets/image/slideImg/studio_status_-200.jpg";
-import img2 from "../../assets/image/slideImg/studio_status_-235.jpg";
-import img3 from "../../assets/image/slideImg/studio_status_-244.jpg";
-import img4 from "../../assets/image/slideImg/studio_status_-249.jpg";
-import img5 from "../../assets/image/slideImg/studio_status_-180 (3).jpg";
+import img1 from "../../assets/image/slideImg/studio_status_-158.jpg";
+import img2 from "../../assets/image/slideImg/studio_status_-28.jpg";
+import img3 from "../../assets/image/slideImg/studio_status_-98.jpg";
+import img4 from "../../assets/image/slideImg/studio_status_-145.jpg";
+import img5 from "../../assets/image/slideImg/studio_status_-235.jpg";
 
 export default function Slider() {
   return (
     <div className="sliderBlock">
       <div className="container">
-        <h1 className="headText">Love story:</h1>
+        {/* <h1 className="headText">Love story:</h1> */}
         <div className="slider">
           <Swiper
             effect={"coverflow"}

@@ -16,7 +16,7 @@ function Content() {
         <div data-aos="fade-up" className={styles.content_title}>
           <p>{t("contentText")}</p>
         </div>
-        <ContentImages />
+        {/* <ContentImages /> */}
       </div>
       {/* <Slider /> */}
     </div>

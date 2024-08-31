@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/weeding_jumagul/static/css/main.507c84a9.css",
-    "main.js": "/weeding_jumagul/static/js/main.8f26f809.js",
+    "main.js": "/weeding_jumagul/static/js/main.89da9de3.js",
     "static/js/453.d48f422f.chunk.js": "/weeding_jumagul/static/js/453.d48f422f.chunk.js",
     "static/media/Group 20431.png": "/weeding_jumagul/static/media/Group 20431.5c537f155e219bc4399c.png",
     "static/media/studio_status_-158.jpg": "/weeding_jumagul/static/media/studio_status_-158.24d2e4d9dd5b0edd1ed0.jpg",
     "static/media/studio_status_-28.jpg": "/weeding_jumagul/static/media/studio_status_-28.8ff2747735b001e39906.jpg",
     "static/media/studio_status_-145.jpg": "/weeding_jumagul/static/media/studio_status_-145.7b00aeb6a2cec61d12ca.jpg",
     "static/media/studio_status_-98.jpg": "/weeding_jumagul/static/media/studio_status_-98.ac271ddf120a71585fca.jpg",
-    "static/media/music.mp3": "/weeding_jumagul/static/media/music.8f4d942571dfa67400cb.mp3",
+    "static/media/music.mp3": "/weeding_jumagul/static/media/music.f10d46d67f97f391fb3e.mp3",
     "static/media/studio_status_-167.jpg": "/weeding_jumagul/static/media/studio_status_-167.189999e7ad8d2fb7e33e.jpg",
     "static/media/studio_status_-235.jpg": "/weeding_jumagul/static/media/studio_status_-235.6a6eb087e2eaeba60415.jpg",
     "static/media/Flag_of_Kyrgyzstan.svg.png": "/weeding_jumagul/static/media/Flag_of_Kyrgyzstan.svg.920dadf6cf9c72ba3401.png",
@@ -21,11 +21,11 @@
     "static/media/name5.png": "/weeding_jumagul/static/media/name5.f276d2b0cbd75d3ff37a.png",
     "index.html": "/weeding_jumagul/index.html",
     "main.507c84a9.css.map": "/weeding_jumagul/static/css/main.507c84a9.css.map",
-    "main.8f26f809.js.map": "/weeding_jumagul/static/js/main.8f26f809.js.map",
+    "main.89da9de3.js.map": "/weeding_jumagul/static/js/main.89da9de3.js.map",
     "453.d48f422f.chunk.js.map": "/weeding_jumagul/static/js/453.d48f422f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.507c84a9.css",
-    "static/js/main.8f26f809.js"
+    "static/js/main.89da9de3.js"
   ]
 }
